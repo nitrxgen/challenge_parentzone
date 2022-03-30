@@ -16,7 +16,7 @@ Following an interview with Alex and Yasmin from Parent Zone on 23rd of March, 2
 
 ## Usage
 
-- Create MySQL database and table called parentzone and registrants respectively.
+- Create MySQL database and table called parentzone and registrants respectively. Contents of this database are found in parentzone.sql.
 
 - Modify register.php and userlist.php to include the MySQL database passwords for connections.
 
