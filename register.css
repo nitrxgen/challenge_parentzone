@@ -1,0 +1,64 @@
+body {
+  background-color: #123;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+div.mainform {
+  background-color: #456;
+  border-radius: 20px;
+  width: 400px;
+  font-size: 1.1rem;
+  padding: 1px;
+  margin: 0px auto;
+}
+
+div.mainform h3 {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+div.mainform select,
+input {
+  font-size: 0.8rem;
+  width: 100%;
+  height: 26px;
+}
+
+div.mainform input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+div.mainform > div {
+  margin: 12px 24px;
+}
+
+div.mainform span.hidehint {
+  color: #fcc;
+  visibility: hidden; /* toggle this so we don't interrupt the layout */
+  display: block; /* only needed for the t&c since the line above uses LABEL element and not DIV */
+}
+
+div.mainform div label {
+  font-size: 0.8em;
+}
+
+div.mainform div > span {
+  font-size: 0.67em;
+}
+
+div.mainform div span.pw_rules > span {
+  border-radius: 2px;
+  /*background-color: #AAA;*/
+  color: #fcc;
+  text-decoration: underline;
+}
+
+div.mainform div span.pw_rules > span.pw_fine {
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+}

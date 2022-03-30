@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+}
+
+div#filters {
+  padding: 0.4em;
+  display: none;
+}
+
+div#filters input {
+  width: 9em;
+}
+
+div#mainusers {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 100%;
+  display: table;
+}
+
+div.table_row {
+  background-color: #bbb;
+  display: table-row;
+  width: 100%;
+}
+
+div.table_row:first-child {
+  background-color: #888;
+}
+
+div.table_row:first-child > div {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.table_row:nth-child(even) {
+  background-color: #ccc;
+}
+
+div.table_row input {
+  /* box-sizing is the hack to get input
+  fields to stretch to the parent element */
+  box-sizing: border-box;
+  width: 100%;
+}
+
+div.table_cell {
+  font-size: 0.8em;
+  display: table-cell;
+  border: 1px solid #444;
+  padding: 2px;
+}
+
+div#status {
+  font-family: monospace;
+  font-weight: bold;
+  padding: 0.8em;
+  font-size: 1em;
+}
